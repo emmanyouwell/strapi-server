@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_objects_link_objects",
+  "info": {
+    "displayName": "linkObject"
+  },
+  "options": {},
+  "attributes": {
+    "github": {
+      "type": "text"
+    },
+    "demo": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

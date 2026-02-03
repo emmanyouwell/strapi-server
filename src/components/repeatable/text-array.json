@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_repeatable_text_arrays",
+  "info": {
+    "displayName": "textArray"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

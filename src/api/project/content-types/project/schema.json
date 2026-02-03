@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "string"
+    },
+    "stackIcons": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Side Project",
+        "School Project",
+        "Freelance Project",
+        "Prompt To Product Series",
+        "Final Capstone Project"
+      ]
+    },
+    "projectType": {
+      "type": "enumeration",
+      "enum": [
+        "Frontend",
+        "Backend",
+        "Full-Stack",
+        "Desktop",
+        "Mobile"
+      ]
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "visibility": {
+      "type": "enumeration",
+      "enum": [
+        "public",
+        "private"
+      ]
+    },
+    "slug": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "detailedDescription": {
+      "type": "component",
+      "component": "repeatable.text-array",
+      "repeatable": true
+    },
+    "techStack": {
+      "type": "component",
+      "component": "repeatable.text-array",
+      "repeatable": true
+    },
+    "link": {
+      "type": "component",
+      "component": "objects.link-object",
+      "repeatable": false
+    }
+  }
+}
