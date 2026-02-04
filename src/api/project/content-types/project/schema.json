@@ -53,16 +53,6 @@
     "slug": {
       "type": "text"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "detailedDescription": {
       "type": "component",
       "component": "repeatable.text-array",
