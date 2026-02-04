@@ -67,6 +67,16 @@
       "type": "component",
       "component": "objects.link-object",
       "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
