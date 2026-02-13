@@ -40,6 +40,9 @@
     },
     "readTime": {
       "type": "integer"
+    },
+    "publishedDate": {
+      "type": "date"
     }
   }
 }
