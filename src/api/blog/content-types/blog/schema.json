@@ -43,6 +43,9 @@
     },
     "publishedDate": {
       "type": "date"
+    },
+    "isExternal": {
+      "type": "boolean"
     }
   }
 }
