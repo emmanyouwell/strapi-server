@@ -39,7 +39,7 @@
       "type": "blocks"
     },
     "readTime": {
-      "type": "string"
+      "type": "integer"
     }
   }
 }
